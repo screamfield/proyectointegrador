@@ -1,0 +1,295 @@
+@font-face {
+    font-family: 'Southside';
+    src: url("../fonts/SOUTHSIDE.ttf");
+}
+
+@font-face {
+    font-family: 'chelsea';
+    src: url("../fonts/ChelseaMarket-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Balsamiq';
+    src: url("../fonts/BalsamiqSans-Regular.ttf");
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffcd00;
+}
+
+
+body {
+    background-color: #121212;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: #1F1F1F;
+    align-content: stretch;
+    margin: 5px 0px 5px 0px;
+    position: relative;
+    padding:5px 0px 5px 0px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    background-color: #1F1F1F;
+    padding-top: 20px;
+    position: relative;
+}
+
+h1 {
+    font-family: 'southside';
+    text-transform: uppercase;
+    margin: 5px 0px 5px 0px;
+    text-align: center;
+    color: #cccccc;
+    font-size: 28px;
+    letter-spacing: 10px;
+    text-shadow: 2px 2px 0 #1F1F1F, 2px -2px 0 #1F1F1F, -2px 2px 0 #1F1F1F, -2px -2px 0 #1F1F1F, 2px 0px 0 #1F1F1F, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5;
+}
+
+#titulos {
+    font-family: 'southside';
+    text-transform: uppercase;
+    margin: 5px 0px 5px 0px;
+    text-align: center;
+    color: #ffcd00;
+    font-size: 72px;
+    letter-spacing: 10px;
+    text-shadow: 2px 2px 0 #1F1F1F, 2px -2px 0 #1F1F1F, -2px 2px 0 #1F1F1F, -2px -2px 0 #1F1F1F, 2px 0px 0 #1F1F1F, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5;
+}
+
+h2 {
+    text-transform: uppercase;
+    margin: 5px 0px 5px 0px;
+    text-align: left;
+    font-size: 20px;
+    color: #cccccc;
+    letter-spacing: 2px;
+    font-family: 'chelsea';
+}
+
+h3 {
+    font-family: 'chelsea';
+    letter-spacing: 2px;
+    color: #cccccc;
+    margin: 3px;
+}
+
+p {
+    font-family: 'balsamiq';
+    color: #cccccc;
+    margin: 5px;
+}
+
+.headerlink {
+    font-family: 'southside';
+    letter-spacing: 2px;
+    color: #cccccc;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.chiquita {
+    font-family: 'balsamiq';
+    font-size: small;
+    font-style: italic;
+    color: #B7B7B7;
+}
+
+.flex {
+    background-color: #121212;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#centro {
+    padding-bottom: 15px;
+}
+
+.artista {
+    position: relative;
+    min-width: 190px;
+    max-height: 50%;
+    /*box-sizing: content-box;*/
+    background-color: #121212;
+    margin: 0px 3px 0px 3px, color #383838;
+    filter: grayscale(100%);
+    transition: .5s ease;
+}
+
+.foto {
+    width: 100%;
+}
+
+.descripcion-box {
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    position: absolute;
+    bottom: 0%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0, 5, 7, 0.548);
+}
+
+.artista:hover {
+    filter: grayscale(0%);
+}
+
+.descripcion-box:hover {
+    opacity: 1;
+}
+
+.artistatexto {
+    font-size: 24px;
+    color: #cccccc;
+}
+
+.botonesredes {
+    display: inline-block;
+    margin: 0px 10px 5px 10px;
+}
+
+.parte {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    margin: 0px;
+    background-color: #232323;
+    padding: 5px 30px 5px 30px
+    /*width: 1180px;*/
+}
+
+.parte:nth-child(even) {
+    background-color: #323232;
+}
+
+.partecita {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    margin: 0px 10px 0px 10px;
+    max-width: 100%;
+    min-width: 380px;
+}
+
+.imgparte {
+    margin: 0px 0px 0px 10px;
+    max-width: 320px;
+    padding: 10PX 10PX 10px 10px;
+}
+
+.boton1 {
+    display: flex;
+    flex-direction: row;
+}
+
+#boxboton {
+    margin-left: 15px;
+}
+
+.input1 {
+    width: 100%;
+    width: 150px;
+}
+
+.BOTON {
+    box-shadow: inset 0px -3px 7px 0px #383838;
+    background: linear-gradient(to bottom, #232323 5%, #323232 100%);
+    background-color: #232323;
+    border-radius: 3px;
+    border: 1px solid #0b0e07;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 8px 23px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #121212;
+}
+
+.BOTON:hover {
+    background: linear-gradient(to bottom, #323232 5%, #232323 100%);
+    background-color: #323232;
+}
+
+.BOTON:active {
+    position: relative;
+    top: 1px;
+}
+
+#capybara {
+    text-align: center;
+    margin: 2px;
+    padding: 20px;
+}
+
+#logofoot {
+    max-width: 50%;
+}
+#logohead {
+    
+    width: 5%;
+}
+
+#letrafoot {
+    margin-left: 0px;
+    padding: 50px 5px 15px 5px;
+    width: 100%;
+}
+
+#botonticket {
+    padding: 0px 20px 0px 20px;
+    margin: 10px 0 10px 0px;
+    border-radius: 20px;
+    background-color: #ffcd00;
+    font-family: 'Southside';
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+#botonticket:hover {
+    color: #383838;
+}
+#cuarentanga {
+    color: #ffcd00;
+}
+
+.flexlogin {
+    background-color: #121212;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+
+#avatar-ingreso {
+    max-height: 380px;
+}
+.input2 { width: 100px;
+margin: 10px 0px 10px 0px;
+}

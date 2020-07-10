@@ -27,6 +27,7 @@ body {
     margin: 0px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 header {
@@ -35,7 +36,7 @@ header {
     flex-wrap: wrap;
     flex-direction: row;
     background-color: #1F1F1F;
-    align-content: stretch;
+    align-content: center;
     margin: 5px 0px 5px 0px;
     position: relative;
     padding:5px 0px 5px 0px;
@@ -190,6 +191,7 @@ p {
     margin: 0px 10px 0px 10px;
     max-width: 100%;
     min-width: 380px;
+    width: fit-content;
 }
 
 .imgparte {
